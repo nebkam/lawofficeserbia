@@ -1,0 +1,105 @@
+* {
+;margin:0
+;padding:0
+}
+html {
+;background:url(/gfx/creme_tile.jpg)
+}
+@font-face {
+;font-family:'Resavska BG'
+;src:url( /fonts/resavska_bi.eot ) /* IE */  
+;src:local("Resavska BG"), url( /fonts/resavska_bi.ttf ) format("truetype") /* non-IE */
+}
+/* Header */
+#topBan {
+;display:block
+;background:url(/gfx/patt_top.jpg) repeat-x 0 -9px
+;width:100%
+}
+#midBan {
+;background:url(/gfx/ban_mid.jpg) no-repeat 0 0
+;display:block
+;margin:auto
+;height:141px
+;width:1085px
+}
+#midBan li {
+;display:inline
+;position:absolute
+;top:85px
+;list-style-type:none
+}
+#midBan li img {
+;border:none
+}
+li#f1 {
+;left:103px
+}
+li#f2 {
+;left:208px
+}
+li#f3 {
+;left:315px
+}
+li#f4 {
+;left:423px
+}
+li#f5 {
+;left:530px
+}
+li#f6 {
+;left:633px
+}
+li#f7 {
+;left:748px
+}
+li#f8 {
+;left:860px
+}
+li#f9 {
+;left:963px
+}
+#nav {
+;font-family:Georgia, 'Times New Roman', serif
+;font-size:18px
+;font-style:italic
+;text-align:center
+}
+#nav li {
+;display:inline
+;margin-right:10px
+;padding-left:30px
+;background:none
+}
+#nav li a:link, #nav li a:visited {
+;color:#561c40
+;text-decoration:none
+}
+#nav li a:focus, #nav li a:hover {
+;color:#98216e
+;text-decoration:underline
+}
+#home {
+;background:url(/gfx/quote_bg.jpg)
+;position:relative
+;width:1055px
+;height:393px
+;margin: 0 auto
+}
+#home blockquote {
+;position:absolute
+;top:130px
+;right:100px
+;width:150px
+;font-family:'Resavska BG'
+;font-size:18px
+;color:#ab245e
+}
+#home #cite {
+;position:absolute
+;top:285px
+;left:805px
+;font-family:'Resavska BG'
+;font-size:24px
+;color:#42032c
+}
